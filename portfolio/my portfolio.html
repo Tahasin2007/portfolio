@@ -1,0 +1,222 @@
+<html>
+<head>
+<title> Portfolio | Tahasin</title>
+     <link
+            rel="icon"
+            href="pexels-moh-adbelghaffar-771742.jpg"
+            type="image/x-icon"
+        />
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Minimal padding for the smallest possible height */
+   
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+header:hover {
+    background-color: #222;
+}
+
+header h1 {
+    font-size: 24px; /* Reduced font size */
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+header p {
+    font-size: 14px; /* Reduced font size */
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; /* Reduced font size */
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00f2fe;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s forwards;
+    animation-delay: 0.3s;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+    transition: all 0.3s;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#skills ul li, .project {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+#skills ul li:hover, .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00f2fe;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #007acc;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <h1>TAHASIN</h1>
+            <p>Web Developer & Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section  class="container">
+        <h2>About Me</h2>
+        <p>Hello! I’m Tahasin, a web developer with experience in designing and developing user-friendly websites.
+		I love turning complex problems into simple and beautiful designs.
+		Also like to play Valorant,CS-GO2 and GTA games</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C</li>
+            <li>C++</li>
+          
+        </ul>
+    </section>
+
+    <section  class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Porject-1</h3>
+
+        </div>
+        <div class="project">
+            <h3>Porject-2</h3>
+           
+        </div>
+		 <div class="project">
+            <h4>Porject-3</h4>
+           
+        </div>
+    </section>
+
+    <section  class="container">
+        <h2>Contact</h2>
+        <p><strong>Feel free to get in touch with me:</strong></p>
+        <ul>
+            <li>Email: atbtahasin@gmail.com</li>
+            <li>Facebook<a href="#">Taha sin</a></li>
+            <li>GitHub: <a href="#">GitHub/tahasin</a></li>
+            <li>instagram <a href="#">insta/tahasin</a></li>			
+			<li>Contact no: 01xxxxxxxx</li>
+        </ul>
+    </section>
+</body>
+</html>
